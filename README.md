@@ -1,6 +1,9 @@
 # Lucky Slots: Unity Slot Machine
 
 A classic 3-reel slot machine built in **Unity 6 (6000.6.10f1)** for the Slot Game assignment.
+
+**▶ Play it in your browser: https://vedant-vats.github.io/slotgame/**
+
 Spin with the button, the lever or the **Space** key. Line up three matching symbols on the payline to win.
 
 ## Game Overview
