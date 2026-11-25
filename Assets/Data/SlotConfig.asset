@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7537622abfc667243b96098bfd99bec3, type: 3}
+  m_Name: SlotConfig
+  m_EditorClassIdentifier: SlotGame.Runtime::SlotGame.Data.SlotConfig
+  symbols:
+  - {fileID: 11400000, guid: 45d6e290f54868a4a8996f1658dbb42b, type: 2}
+  - {fileID: 11400000, guid: a73d453c87493a54d8535618e753f3b1, type: 2}
+  - {fileID: 11400000, guid: 542f5a81059157a468b04d80631d10dc, type: 2}
+  - {fileID: 11400000, guid: 2998cc5ad4d3f5948ba7099934565e95, type: 2}
+  betOptions: 0a000000190000003200000064000000i
+  defaultBetIndex: 0
+  startingCredits: 1000
+  refillCredits: 1000
+  jackpotSeed: 500
+  jackpotContribution: 0.05
+  bigWinMultiplier: 20
+  reelSpeed: 16
+  windUpDistance: 0.3
+  windUpDuration: 0.12
+  accelerationDuration: 0.25
+  minSpinDuration: 0.9
+  reelStopInterval: 0.32
+  stopDistance: 3
+  quickStopDistance: 1
+  bounceOvershoot: 0.22
+  bounceDuration: 0.16
+  motionStretch: 0.12
+  autoSpinDelay: 0.5
+  winPresentationDuration: 1.6
