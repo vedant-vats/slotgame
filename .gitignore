@@ -17,7 +17,7 @@
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
-/[Bb]uild/
+# Build/WebGL is committed on purpose (assignment requirement)
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
@@ -112,3 +112,6 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Test results
+TestResults*.xml

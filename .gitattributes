@@ -169,3 +169,12 @@ Packages/packages-lock.json linguist-generated
 
 # Exceptions for .asset files such as lightning pre-baking
 LightingData.asset     binary
+
+# ---- Project overrides ----
+# Keep the small art/audio files and the WebGL build out of Git LFS so the repo
+# works for anyone who clones it or downloads a ZIP without LFS installed.
+*.png -filter -diff -merge binary
+*.gif -filter -diff -merge binary
+*.wav -filter -diff -merge binary
+*.ttf -filter -diff -merge binary
+Build/WebGL/** -filter -diff -merge -text
